@@ -1,0 +1,23 @@
+{
+  "name": "gameart2d_sprite_free_cat_run_left",
+  "path": "sprites/cat/run-left",
+  "framerate" :  15,
+  "walk-speed": 15,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [140,26,303,300],
+    [135,326,248,135]
+  ],
+  "floor" :463,
+  "sprites": [
+    "Run (1).png",
+    "Run (2).png",
+    "Run (3).png",
+    "Run (4).png",
+    "Run (5).png",
+    "Run (6).png",
+    "Run (7).png",
+    "Run (8).png"
+  ]
+}

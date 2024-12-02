@@ -1,0 +1,25 @@
+{
+  "name": "gameart2d_sprite_free_cat_slide",
+  "path": "sprites/cat/slide",
+  "framerate" :  15,
+  "walk-speed": 1,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [20,120,320,270],
+    [109,360,231,100]
+  ],
+  "floor" :463,
+  "sprites": [
+    "Slide (1).png",
+    "Slide (2).png",
+    "Slide (3).png",
+    "Slide (4).png",
+    "Slide (5).png",
+    "Slide (6).png",
+    "Slide (7).png",
+    "Slide (8).png",
+    "Slide (9).png",
+    "Slide (10).png"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "gameart2d_sprite_free_cat_jump",
+  "path": "sprites/cat/jump",
+  "framerate" :  15,
+  "walk-speed": 1,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [68,20,357,300],
+    [110,320,230,135]
+  ],
+  "floor" :463,
+  "sprites": [
+    "Jump (1).png",
+    "Jump (2).png",
+    "Jump (3).png",
+    "Jump (4).png",
+    "Jump (5).png",
+    "Jump (6).png",
+    "Jump (7).png",
+    "Jump (8).png"
+  ]
+}

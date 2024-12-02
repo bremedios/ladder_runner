@@ -1,0 +1,25 @@
+{
+  "name": "gameart2d_sprite_free_dog_hurt",
+  "path": "sprites/dog/hurt",
+  "walk-speed": 1,
+  "framerate" :  15,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [75,30,442,270],
+    [145,300,372,168]
+  ],
+  "floor" :468,
+  "sprites": [
+    "Hurt (1).png",
+    "Hurt (2).png",
+    "Hurt (3).png",
+    "Hurt (4).png",
+    "Hurt (5).png",
+    "Hurt (6).png",
+    "Hurt (7).png",
+    "Hurt (8).png",
+    "Hurt (9).png",
+    "Hurt (10).png"
+  ]
+}

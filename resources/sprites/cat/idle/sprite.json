@@ -1,0 +1,25 @@
+{
+  "name": "gameart2d_sprite_free_cat_idle",
+  "path": "sprites/cat/idle",
+  "framerate" :  15,
+  "walk-speed": 1,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [105,28,290,280],
+    [130,308,212,152]
+  ],
+  "floor" :463,
+  "sprites": [
+    "Idle (1).png",
+    "Idle (2).png",
+    "Idle (3).png",
+    "Idle (4).png",
+    "Idle (5).png",
+    "Idle (6).png",
+    "Idle (7).png",
+    "Idle (8).png",
+    "Idle (9).png",
+    "Idle (10).png"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "opengameart_fantasticfox_yarn",
+  "type": "treasure",
+  "path": "sprites/yarn",
+  "framerate" :  1,
+  "walk-speed": 0,
+  "image" : [0,0,64,64],
+  "sprites": [
+    "yarn.png"
+  ]
+}

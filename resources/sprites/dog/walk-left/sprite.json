@@ -1,0 +1,25 @@
+{
+  "name": "gameart2d_sprite_free_dog_walk_left",
+  "path": "sprites/dog/walk-left",
+  "framerate" :  15,
+  "walk-speed": 5,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [102,13,296,300],
+    [148,313,196,155]
+  ],
+  "floor" :468,
+  "sprites": [
+    "Walk (1).png",
+    "Walk (2).png",
+    "Walk (3).png",
+    "Walk (4).png",
+    "Walk (5).png",
+    "Walk (6).png",
+    "Walk (7).png",
+    "Walk (8).png",
+    "Walk (9).png",
+    "Walk (10).png"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "gameart2d_sprite_free_dog_dead",
+  "path": "sprites/dog/dead",
+  "framerate" :  15,
+  "walk-speed": 1,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [7,30,535,280],
+    [80,310,462,160]
+  ],
+  "floor" :463,
+  "sprites": [
+    "Dead (1).png",
+    "Dead (2).png",
+    "Dead (3).png",
+    "Dead (4).png",
+    "Dead (5).png",
+    "Dead (6).png",
+    "Dead (7).png",
+    "Dead (8).png",
+    "Dead (9).png",
+    "Dead (10).png"
+  ]
+}

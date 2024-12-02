@@ -1,0 +1,23 @@
+{
+  "name": "gameart2d_sprite_free_cat_fall",
+  "path": "sprites/cat/fall",
+  "framerate" :  15,
+  "walk-speed": 1,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [70,18,298,300],
+    [110,318,230,138]
+  ],
+  "floor" :463,
+  "sprites": [
+    "Fall (1).png",
+    "Fall (2).png",
+    "Fall (3).png",
+    "Fall (4).png",
+    "Fall (5).png",
+    "Fall (6).png",
+    "Fall (7).png",
+    "Fall (8).png"
+  ]
+}

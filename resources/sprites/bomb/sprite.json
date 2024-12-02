@@ -1,0 +1,11 @@
+{
+  "name": "opengameart_grumpydiamond_bomb",
+  "type": "bomb",
+  "path": "sprites/bomb",
+  "framerate" :  1,
+  "walk-speed": 0,
+  "image" : [0,100,200,100],
+  "sprites": [
+    "g5715.png"
+  ]
+}

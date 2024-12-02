@@ -1,0 +1,83 @@
+{
+  "sprites" : [
+  ],
+  "layout" : {
+    "640x480" : {
+      "ops": [
+        {
+          "name": "game-over",
+          "type": "text",
+          "value": "GAME OVER",
+          "font" : "resources/fonts/Roboto-Regular.ttf",
+          "color" : [0,0,0,0],
+          "font-size" : 110,
+          "halign": "center",
+          "valign": "center",
+          "dest" : [0, 0, 640, 480],
+          "visible" : false
+        },
+        {
+          "name": "level",
+          "type": "text",
+          "value": "Level 0",
+          "font" : "resources/fonts/Roboto-Regular.ttf",
+          "color" : [0,0,0,0],
+          "font-size" : 24,
+          "halign": "center",
+          "valign": "center",
+          "dest" : [0, 0, 640, 24],
+          "visible" : false
+        },
+        {
+          "name": "score",
+          "type": "text",
+          "value": " 0",
+          "font" : "resources/fonts/Roboto-Regular.ttf",
+          "color" : [0,0,0,0],
+          "font-size" : 24,
+          "halign": "right",
+          "valign": "center",
+          "dest" : [520, 5, 120, 24],
+          "visible" : true
+        },
+        {
+          "name": "resume-in",
+          "type": "text",
+          "value": "3",
+          "font" : "resources/fonts/Roboto-Regular.ttf",
+          "color" : [0,0,0,0],
+          "font-size" : 500,
+          "halign": "center",
+          "valign": "center",
+          "dest" : [0, 0, 640, 480],
+          "visible" : false
+        },
+        {
+          "name": "health-1",
+          "type": "image",
+          "filename": "resources/images/health.png",
+          "visible" : false,
+          "dest": [570, 440, 30,30]
+        },
+        {
+          "name": "health-2",
+          "type": "image",
+          "filename": "resources/images/health.png",
+          "visible" : false,
+          "dest": [590, 440, 30,30]
+        },
+        {
+          "name": "health-3",
+          "type": "image",
+          "filename": "resources/images/health.png",
+          "visible" : false,
+          "dest": [610, 440, 30,30]
+        }
+      ]
+
+    },
+    "1920x1080" : {
+
+    }
+  }
+}

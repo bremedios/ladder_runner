@@ -1,0 +1,24 @@
+{
+  "name": "gameart2d_sprite_free_dog_slide",
+  "path": "sprites/dog/slide",
+  "framerate" :  15,
+  "walk-speed": 1,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [21,99,297,300],
+    [110,370,237,103]],
+  "floor" :468,
+  "sprites": [
+    "Slide (1).png",
+    "Slide (2).png",
+    "Slide (3).png",
+    "Slide (4).png",
+    "Slide (5).png",
+    "Slide (6).png",
+    "Slide (7).png",
+    "Slide (8).png",
+    "Slide (9).png",
+    "Slide (10).png"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "gameart2d_tiles_graveyard_floor_12",
+  "path": "sprites/graveyardtiles/floor_12",
+  "framerate" :  1,
+  "walk-speed": 0,
+  "image" : [0,0,128,128],
+  "sprites": [
+    "Tile (12).png"
+  ]
+}

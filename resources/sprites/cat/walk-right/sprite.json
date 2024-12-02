@@ -1,0 +1,25 @@
+{
+  "name": "gameart2d_sprite_free_cat_walk_right",
+  "path": "sprites/cat/walk-right",
+  "framerate" :  15,
+  "walk-speed": 5,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [100,18,290,280],
+    [130,298,210,160]
+  ],
+  "floor" :463,
+  "sprites": [
+    "Walk (1).png",
+    "Walk (2).png",
+    "Walk (3).png",
+    "Walk (4).png",
+    "Walk (5).png",
+    "Walk (6).png",
+    "Walk (7).png",
+    "Walk (8).png",
+    "Walk (9).png",
+    "Walk (10).png"
+  ]
+}

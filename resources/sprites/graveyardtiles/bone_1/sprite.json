@@ -1,0 +1,10 @@
+{
+  "name": "gameart2d_tiles_graveyard_bone_1",
+  "path": "sprites/graveyardtiles/bone_1",
+  "framerate" :  1,
+  "walk-speed": 0,
+  "image" : [0,0,128,128],
+  "sprites": [
+    "Bone (1).png"
+  ]
+}

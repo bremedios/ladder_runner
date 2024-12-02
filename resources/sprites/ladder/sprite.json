@@ -1,0 +1,11 @@
+{
+  "name": "opengameart_hypnosis_spacetiles_ladder",
+  "type": "ladder",
+  "path": "sprites/ladder",
+  "framerate" :  1,
+  "walk-speed": 0,
+  "image" : [0,0,128,128],
+  "sprites": [
+    "ladder.png"
+  ]
+}

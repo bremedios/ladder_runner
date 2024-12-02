@@ -1,0 +1,23 @@
+{
+  "name": "gameart2d_sprite_free_dog_fall",
+  "path": "sprites/dog/fall",
+  "framerate" :  15,
+  "walk-speed": 1,
+  "image" : [0,0,542,470],
+  "collider" : [100,28,342,433],
+  "colliders" : [
+    [72,8,294,300],
+    [122,308,222,155]
+  ],
+  "floor" :468,
+  "sprites": [
+    "Fall (1).png",
+    "Fall (2).png",
+    "Fall (3).png",
+    "Fall (4).png",
+    "Fall (5).png",
+    "Fall (6).png",
+    "Fall (7).png",
+    "Fall (8).png"
+  ]
+}

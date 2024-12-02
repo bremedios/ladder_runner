@@ -1,0 +1,85 @@
+{
+  "sprites" : [
+    {
+      "name" : "cat",
+      "filename" : "sprites/cat/idle/sprite.json"
+    },
+    {
+      "name" : "dog",
+      "filename" : "sprites/dog/idle/sprite.json"
+    },
+    {
+      "name" : "selection",
+      "filename" : "sprites/ladder/sprite.json"
+    }
+  ],
+  "layout" : {
+    "640x480" : {
+      "ops": [
+        {
+          "name": "background",
+          "type": "fill",
+          "color" : [66,135,245,0]
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "value": "Dogs and Cats",
+          "font" : "resources/fonts/Roboto-Regular.ttf",
+          "color" : [255,255, 255,0],
+          "font-size" : 72,
+          "halign": "center",
+          "valign": "top",
+          "dest" : [0, 5, 640, 280]
+        },
+        {
+          "name": "play",
+          "type": "text",
+          "value": "Play",
+          "font" : "resources/fonts/Roboto-Regular.ttf",
+          "color" : [0,0,0,0],
+          "font-size" : 48,
+          "halign": "left",
+          "valign": "center",
+          "dest" : [250, 200, 390, 50]
+        },
+        {
+          "name": "quit",
+          "type": "text",
+          "value": "Quit",
+          "font" : "resources/fonts/Roboto-Regular.ttf",
+          "color" : [0,0,0,0],
+          "font-size" : 48,
+          "halign": "left",
+          "valign": "center",
+          "dest" : [250, 250, 390, 50]
+        },
+        {
+          "name": "cat",
+          "type": "sprite",
+          "location": [-30,225],
+          "sprite": "cat",
+          "height" : 250
+        },
+        {
+          "name": "dog",
+          "type": "sprite",
+          "location": [350,75],
+          "sprite": "dog",
+          "height" : 300,
+          "flip-horizontal" : true
+        },
+        {
+          "name": "ladder-selection",
+          "type": "image",
+          "filename": "sprites/ladder/ladder.png",
+          "dest": [220, 200, 25,25]
+        }
+      ]
+
+    },
+    "1920x1080" : {
+
+    }
+  }
+}
