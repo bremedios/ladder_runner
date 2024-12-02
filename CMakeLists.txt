@@ -26,3 +26,7 @@ add_executable(ladder_runner src/ladder_runner.cpp src/MainMenu.cpp
         src/Debug.h)
 
 target_link_libraries(ladder_runner PRIVATE SDL2::SDL2 SDL2_ttf::SDL2_ttf SDL2_image::SDL2_image bpl_graphics bpl_game bpl_controls bpl_storage bpl_sys)
+
+
+
+install(PROGRAMS ladder_runner DESTINATION bin)
