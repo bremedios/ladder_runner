@@ -12,7 +12,7 @@ find_package(SDL2_image REQUIRED CONFIG REQUIRED COMPONENTS SDL2_image)
 find_package(SDL2 REQUIRED CONFIG COMPONENTS SDL2main)
 
 
-include_directories(${SDL_INCLUDE_DIRS} ${SDL_TTF_INCLUDE_DIRS})
+include_directories(${SDL_INCLUDE_DIRS} ${SDL_TTF_INCLUDE_DIRS} ../libbpl_graphics/libbpl_graphics/include ../libbpl_game/libbpl_game/include ../libbpl_controls/libbpl_controls/include ../libbpl_sys/libbpl_sys/include)
 
 add_executable(ladder_runner src/ladder_runner.cpp src/MainMenu.cpp
         src/GSSpriteViewer.cpp
@@ -29,4 +29,4 @@ target_link_libraries(ladder_runner PRIVATE SDL2::SDL2 SDL2_ttf::SDL2_ttf SDL2_i
 
 
 
-install(PROGRAMS ladder_runner DESTINATION bin)
+install(TARGETS ladder_runner DESTINATION bin)
