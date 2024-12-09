@@ -29,4 +29,4 @@ target_link_libraries(ladder_runner PRIVATE SDL2::SDL2 SDL2_ttf::SDL2_ttf SDL2_i
 
 
 
-install(TARGETS ladder_runner DESTINATION usr/bin)
+install(TARGETS ladder_runner DESTINATION bin)
